@@ -1,0 +1,66 @@
+scores NB TF ->,,,,
+Per Class Metrics:,,,,
+,precision,recall,f1-score,support
+,,,,
+Cardiovascular / Pulmonary,0.88,0.83,0.85,300
+Orthopedic,0.92,0.81,0.86,81
+Gastroenterology,0.87,0.74,0.8,184
+Neurology,0.59,0.73,0.65,75
+Urology,0.66,0.77,0.71,66
+Obstetrics / Gynecology,0.84,0.81,0.82,171
+ENT - Otolaryngology,0.86,0.82,0.84,124
+Hematology - Oncology,0.83,0.92,0.87,62
+Ophthalmology,0.84,0.93,0.88,286
+Nephrology,0.85,0.83,0.84,127
+avg / total,0.84,0.83,0.83,1476
+,,,,
+,,,,
+scores NB TFIDF ->,,,,
+Per Class Metrics:,,,,
+,precision,recall,f1-score,support
+,,,,
+Cardiovascular / Pulmonary,0.77,0.92,0.84,300
+Orthopedic,0.97,0.73,0.83,81
+Gastroenterology,0.8,0.8,0.8,184
+Neurology,0.63,0.52,0.57,75
+Urology,0.86,0.47,0.61,66
+Obstetrics / Gynecology,0.84,0.72,0.78,171
+ENT - Otolaryngology,0.89,0.84,0.86,124
+Hematology - Oncology,0.98,0.77,0.86,62
+Ophthalmology,0.79,0.96,0.87,286
+Nephrology,0.9,0.83,0.87,127
+avg / total,0.82,0.82,0.81,1476
+,,,,
+,,,,
+scores SVM TF ->,,,,
+Per Class Metrics:,,,,
+,precision,recall,f1-score,support
+,,,,
+Cardiovascular / Pulmonary,0.89,0.95,0.92,300
+Orthopedic,0.96,0.85,0.9,81
+Gastroenterology,0.86,0.89,0.87,184
+Neurology,0.87,0.83,0.85,75
+Urology,0.86,0.82,0.84,66
+Obstetrics / Gynecology,0.96,0.94,0.95,171
+ENT - Otolaryngology,0.96,0.89,0.92,124
+Hematology - Oncology,0.97,0.92,0.94,62
+Ophthalmology,0.93,0.98,0.95,286
+Nephrology,0.95,0.89,0.92,127
+avg / total,0.92,0.92,0.92,1476
+,,,,
+,,,,
+scores SVM TFIDF ->,,,,
+Per Class Metrics:,,,,
+,precision,recall,f1-score,support
+,,,,
+Cardiovascular / Pulmonary,0.75,0.96,0.84,300
+Orthopedic,0.98,0.59,0.74,81
+Gastroenterology,0.7,0.92,0.8,184
+Neurology,0.95,0.48,0.64,75
+Urology,1,0.18,0.31,66
+Obstetrics / Gynecology,0.99,0.61,0.76,171
+ENT - Otolaryngology,0.92,0.91,0.91,124
+Hematology - Oncology,0.96,0.82,0.89,62
+Ophthalmology,0.85,0.99,0.92,286
+Nephrology,0.82,0.87,0.84,127
+avg / total,0.85,0.82,0.81,1476
